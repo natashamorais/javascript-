@@ -21,7 +21,6 @@ function Rect(altura, largura, cor, unidade) {
 
 class Rect {
     constructor(altura, largura, cor, unidade) {
-
         this.altura = altura
         this.largura = largura
         this.cor = cor
@@ -31,10 +30,20 @@ class Rect {
     area (){
         return this.altura * this.largura + this.unidade
     }
+
 }
 
 class Quadrado extends Rect{
     constructor (lado,cor,unidade){
         super (lado,lado,cor,unidade)
+        this.textura = "textura"
     }
 }
+
+class Quadrado10 extends Quadrado{
+    constructor ( cor, unidade){
+    super (10,cor,unidade)
+    this.prop = "value"
+    }
+}
+
