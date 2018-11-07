@@ -60,7 +60,7 @@ class Div extends Ponto {
             this.mover_verticalmente(incremento)
         this.node.style.top = this.y + "px"
 
-        if (direçao === "left")
+        if (direcao === "left")
             this.mover_horizontalmente(-incremento)
         this.node.style.left = this.x + "px"
 
@@ -75,26 +75,31 @@ class Div extends Ponto {
 }
 
 const bolinha1 = new Div("rosa", "pink", 150, 150, 50, 50)
-
 bolinha1.desenhar()
+const bolinha2 = new Div ("blue", "lightblue", 200, 200, 50, 50)
+bolinha2.desenhar()
+const bolinhas = [bolinha1, bolinha2]
+
+
+
 
 
 document.addEventListener("keypress", function (e) {
-    if (e.keycode === "ArrowUp") {
+    if (e.key === "ArrowUp") {
         div.move_na_tela("up")
     }
 
-    else if (e.keycode === "ArrowDown") {
+    else if (e.key === "ArrowDown") {
         div.move_na_tela("down")
 
     }
 
-    else if (e.keycode === "ArrowRight") {
+    else if (e.key === "ArrowRight") {
         div.move_na_tela("right")
 
     }
 
-    else if (e.keycode === "ArrowLeft") {
+    else if (e.key === "ArrowLeft") {
         div.move_na_tela("left")
 
     }
@@ -103,6 +108,9 @@ document.addEventListener("keypress", function (e) {
 
 
 
+//instalando por npm --save-dev serve para instalar só para o projeto que vc está desenvolvendo e o -g serve para instalar no seu computador todo 
 
 
-
+//comando mkdir cria uma pasta
+//ls lista o que tem dentro do diretorio
+//cd é change directory 
