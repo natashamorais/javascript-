@@ -1,14 +1,10 @@
 escutar pelo evento de submit do input > valor do input > usar o valor para fazer a busca > musicbrainz = http://musicbrainz.org/ws/2/artist/?query=adele&fmt=json
 
-google key AIzaSyBzYKNHav1YmTqHniaVqC397opjzlK7OSo
+google key 
 
-id mecanismo de pesquisa 004535846855463861387:3mmw4s0zrdk (cx)
+id mecanismo de pesquisa 
 
 //www.googleapis.com/customsearch/v1?[parameters = cx, q e key]
-
-//www.googleapis.com/customsearch/v1?key=AIzaSyBzYKNHav1YmTqHniaVqC397opjzlK7OSo&cx=004535846855463861387:3mmw4s0zrdk&q=nirvana&searchType=image&imageSize=huge
-
-https://www.googleapis.com/customsearch/v1?key=AIzaSyC6255HAVIYivmIaVx-nGRnPHAnRokzLrk&cx=007625223586937350343:u5_zvsdy0ki&q=nirvana&searchType=image&imgSize=huge
 
 
 ?delimita o começo dos parametros e fim da url 
